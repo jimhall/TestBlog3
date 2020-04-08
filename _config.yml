@@ -1,5 +1,9 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
+title: 'jimhall.sh | grep "interesting things"'
+description: Part 3 Mainly a place to write down some things learned
+author: Jim Hall
+email: jimhallsun@gmail.com
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker
+show_excerpts: true # set to false to remove excerpts on the homepage

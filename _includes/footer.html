@@ -1,0 +1,84 @@
+<!-- Begin code @ _includes/footer.html -->
+
+<!-- https://www.w3schools.com/css/css_howto.asp -->
+
+<style>
+.green {
+    color:#b5e853
+}
+footer {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-top: 1px dashed #b5e853;
+    padding: 10px 0;
+    margin:0 0 40px 0
+}
+footer h2 {
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  text-align: center;
+  font-size: 14px;
+  font-weight:300;
+  color: #666
+}
+.social-media-list, .pagination {
+    display: table;
+    margin:0 auto
+}
+.social-media-list li, .pagination li {
+    list-style: none;
+    float: left;
+    margin:5px 10px 5px 0
+}
+.social-media-list li a, .pagination li a {
+    display: block;
+    padding: 7.5px;
+    border:1px solid #b5e853
+}
+.social-media-list li a:hover, .pagination li a:hover {
+    border-color:#cfcfcf
+}
+.social-media-list li:last-of-type, .pagination li:last-of-type {
+    margin-right:0
+}
+.svg-footicon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align:text-bottom
+}
+footer.social-media-list {
+    list-style: none;
+    margin-left:0
+}
+</style>
+
+    <footer> 
+    <div class="footer">
+
+    <div class="social-links">
+        <ul class="social-media-list">
+        <li><a rel="me" href="{{ site.github.repository_url }}" title="Jim Hall Hacker Source">
+        <svg class="svg-footicon green">
+        <use xlink:href="{{ '/assets/images/minima-social-icons.svg#github' | relative_url }}"></use>
+        </svg></a></li>
+        <li><a rel="me" href="https://twitter.com/intent/tweet?screen_name=jimhall37&ref_src=twsrc%5Etfw" title="@jimhall37">
+        <svg class="svg-footicon green">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+        </svg></a></li></ul>
+    </div>
+  </div>
+
+  <!-- BEGIN OLD CODE 
+      <div class="footer"> 
+        <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+          <h2>{{ site.author}} {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %} © {{ currentyear }}</h2>
+        </a>
+     </div>
+     END OLD COLD-->
+     </footer>
+
+      <!-- End code @ _includes/footer.html -->
