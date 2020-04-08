@@ -27,5 +27,5 @@
 
 # Wed Apr  8 16:31:10 EDT 2020
 - Changed footer.html
-    - .social-media-list li:last-of-type | margin-right:0 -> margin-right:40px
+    - .social-media-list li:last-of-type  margin-right:0 -> margin-right:40px
     - footer h2 -> commented out width
