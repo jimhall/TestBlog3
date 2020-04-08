@@ -29,3 +29,13 @@
 - Changed footer.html
     - .social-media-list li:last-of-type  margin-right:0 -> margin-right:40px
     - footer h2 -> commented out width
+
+# Wed Apr  8 17:50:59 EDT 2020
+- Trying to create a _sass/jekyll-theme-hacker-jimhall.scss
+    - adding import statement to jekyll-theme-hacker
+    - adding test css format
+    - That worked moved styles in footer.html to _sass/jekyll-theme-hacker-jimhall.scss
+    - Removed space between / and title @ header h1:before in
+      _sass/jekyll-theme-hacker.scss
+    - Migrated header.html css to _sass/jekyll-theme-hacker-jimhall.scss
+    - Then deleted css in footer.html and header.html
