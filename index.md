@@ -1,9 +1,9 @@
 ---
-layout: default2
+layout: default
 title: Welcome to my blog
 ---
 
-<!-- Begin code @ index2.md -->
+<!-- Begin code @ index.md -->
 
 # Welcome to my blog
 
@@ -21,4 +21,4 @@ works.
 {% endfor %}
 </ul>
 
-<!-- End code @ index2.md -->
+<!-- End code @ index.md -->
