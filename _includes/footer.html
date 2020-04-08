@@ -1,15 +1,17 @@
 <!-- Begin code @ _includes/footer.html -->
 
 <!-- https://www.w3schools.com/css/css_howto.asp -->
+<!-- See _sass/_default_colors.scss for $conifer -->
 
 <style>
 .green {
-    color:#b5e853
+    color:$conifer
 }
 footer {
     background: rgba(0, 0, 0, 0.1);
     width: 100%;
-    border-top: 1px dashed #b5e853;
+/*    border-top: 1px dashed #b5e853;*/
+    border-top: 1px dashed $conifer;
     padding: 10px 0;
     margin:0 0 40px 0
 }
@@ -35,7 +37,8 @@ footer h2 {
 .social-media-list li a, .pagination li a {
     display: block;
     padding: 7.5px;
-    border:1px solid #b5e853
+    /*border:1px solid #b5e853*/
+    border:1px solid $conifer
 }
 .social-media-list li a:hover, .pagination li a:hover {
     border-color:#cfcfcf
