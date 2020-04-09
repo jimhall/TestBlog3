@@ -7,3 +7,8 @@ google_analytics:
 #theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker
 show_excerpts: true # set to false to remove excerpts on the homepage
+# https://dzhavat.github.io/2020/01/19/adding-an-rss-feed-to-github-pages.html
+# https://github.com/jekyll/jekyll-feed/releases
+# https://pages.github.com/versions/
+plugins:
+  - jekyll-feed
