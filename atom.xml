@@ -11,7 +11,7 @@ layout: null
     <author>
       <name>{{ site.author }}</name>
       <email>{{ site.email }}</email>
-      <uri>{{ '/about.html' | relative_url }}</uri>
+      <uri>{{ site.url }}{{ '/about.html' | relative_url }}</uri>
     </author>
     {% for post in site.posts limit:10 %}
       <item>
