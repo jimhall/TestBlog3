@@ -1,3 +1,6 @@
+# Sources:
+- https://github.com/tocttou/hacker-blog
+
 # Wed Apr  8 13:23:16 EDT 2020 
 - _config.yml file
     - Went from theme -> remote_theme
@@ -39,3 +42,16 @@
       _sass/jekyll-theme-hacker.scss
     - Migrated header.html css to _sass/jekyll-theme-hacker-jimhall.scss
     - Then deleted css in footer.html and header.html
+    - NOTE: social-media* elements stolen from the minima theme @
+    https://github.com/jekyll/minima
+
+# Thu Apr  9 16:17:22 EDT 2020 (RSS changeset)
+- Trying to add RSS // feed.xml using jekyll-feed
+    - See https://dzhavat.github.io/2020/01/19/adding-an-rss-feed-to-github-pages.html
+    - https://github.com/jekyll/jekyll-feed/releases
+    - https://pages.github.com/versions/
+- Changes to head.html
+    - See See https://github.com/jekyll/jekyll-feed#meta-tags
+    - Changed atom.xml -> feed.xml for defaults of jekyll plug-in
+
+
