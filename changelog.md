@@ -3,7 +3,8 @@
 
 # Wed Apr  8 13:23:16 EDT 2020 
 - _config.yml file
-    - Went from theme -> remote_theme
+    - Went from theme -> remote_theme (see:
+      https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
     - Added show_excerpts
     - Added author & email, changed title
 - Moved over _includes files:
