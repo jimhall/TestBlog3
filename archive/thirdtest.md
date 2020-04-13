@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Test file"
+title: "Third Test file"
 ---
 
-# Test file
+# Third Test file
 
 <ul>
   {{'{'}}% for post in site.posts >}}
