@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="393 102 443 443" width="443" height="443">
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="black"/>
+      <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(614.5 107) rotate(90) scale(433)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-04-13 13:38:45 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" fill="none" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="393" y="102" width="443" height="443"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_13">
+        <g id="Graphic_3">
+          <path d="M 767.58845 170.41155 C 852.1373 254.96 852.1373 392.04 767.58845 476.58845 C 683.04 561.1373 545.96 561.1373 461.41155 476.58845 C 376.86267 392.04 376.86267 254.96 461.41155 170.41155 C 545.96 85.86267 683.04 85.86267 767.58845 170.41155" fill="url(#Obj_Gradient)"/>
+          <path d="M 767.58845 170.41155 C 852.1373 254.96 852.1373 392.04 767.58845 476.58845 C 683.04 561.1373 545.96 561.1373 461.41155 476.58845 C 376.86267 392.04 376.86267 254.96 461.41155 170.41155 C 545.96 85.86267 683.04 85.86267 767.58845 170.41155" stroke="#00fa41" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+        </g>
+        <g id="Line_8">
+          <path d="M 616.5 273.0625 L 615.90234 325.97656 L 616.9639 461.5293 L 617.125 471.9375 L 609.125 485.9375 L 600.125 495.9375 L 587.125 502.9375 L 572.125 509.9375 L 553.125 511.9375 L 530.125 508.9375 L 508.125 499.9375 L 494.125 488.9375 L 485 470.3125 L 479 447.3125 L 479 428.3125" stroke="#00fa41" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+        </g>
+        <g id="Line_9">
+          <line x1="650" y1="175" x2="649.1719" y2="389.16016" stroke="#00fa41" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+        </g>
+        <g id="Line_10">
+          <line x1="750.8281" y1="175" x2="750" y2="389.16016" stroke="#00fa41" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+        </g>
+        <g id="Line_11">
+          <path d="M 403.625 273.0625 L 568.3047 272.60938 L 825.3125 272.9375" stroke="#00fa41" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
