@@ -4,6 +4,7 @@ title: "Archive"
 ---
 # Archive
 
+<!-- Begin archive/index.md code -->
 <div class="container">
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
@@ -15,3 +16,4 @@ title: "Archive"
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     <time>{{ post.date | date: "%e %B %Y" }}</time>
 {% endfor %}
+<!-- End archive/index.md code -->
