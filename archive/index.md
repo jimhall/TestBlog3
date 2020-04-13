@@ -2,7 +2,7 @@
 layout: default
 title: "Archive"
 ---
-# Archive
+<h1>Archive</h1>
 
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
