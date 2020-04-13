@@ -5,7 +5,7 @@ title: "Archive"
 # Archive
 
 <!-- Begin archive/index.md code -->
-<div class="container">
+<!-- <div class="container"> -->
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
