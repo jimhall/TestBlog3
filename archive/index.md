@@ -2,10 +2,10 @@
 layout: archive
 title: "Archive"
 ---
-<div class="container"> 
-# Archive
 
 <!-- Begin archive/index.md code -->
+<div class="container"> 
+<h2>Archives</h2>
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
