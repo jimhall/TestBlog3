@@ -7,10 +7,10 @@ title: Tags
 
 # Tag listing
 
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
+{% for tags in site.tags %}
+  <h3>{{ tags[0] }}</h3>
   <ul>
-    {% for post in category[1] %}
+    {% for post in tags[1] %}
       <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
