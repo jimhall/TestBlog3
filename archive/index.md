@@ -2,8 +2,9 @@
 layout: default
 title: "Archive"
 ---
-<h1>Archive</h1>
+# Archive
 
+<div class="container">
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
@@ -14,4 +15,4 @@ title: "Archive"
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     <time>{{ post.date | date: "%e %B %Y" }}</time>
 {% endfor %}
-
+</div>
