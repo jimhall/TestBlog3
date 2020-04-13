@@ -20,7 +20,7 @@ works.
   <!-- 
   <p>{{ post.content | strip_html | truncatewords:50 }}</p>
   -->
-  <p>{{ post.excerpt }}</p>
+  {{ post.excerpt }}
 {% endfor %}
 </ul>
 
