@@ -15,7 +15,7 @@ title: Categories
 
 <p></p>
 
-<div class="container">
+<div class="catcloud">
 {% for category in site.categories %}
   <a name="{{ category[0] }}"><h3>{{ category[0] }}</h3></a>
   <ul>
