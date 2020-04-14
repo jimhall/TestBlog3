@@ -8,9 +8,11 @@ title: Tags
 # Tag listing
 
 <!-- <div class="container"> -->
+{::nomarkdown}
 {% for tags in site.tags %}
-<a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>
+  <a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>
 {% endfor %}
+{::/nomarkdown}
 <!-- </div> -->
 
 {% for tags in site.tags %}
