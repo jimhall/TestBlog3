@@ -14,7 +14,7 @@ if this class is removed OR you add a corresponding
 <div class="container"> 
 <h2>Archives</h2>
 <!-- Code below lifted from https://www.mitsake.net/2012/04/archives-in-jekyll/ -->
-{% for post in site.posts %}
+{%- for post in site.posts -%}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
         {% if month != nmonth %}
@@ -23,5 +23,5 @@ if this class is removed OR you add a corresponding
         {% endif %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     <time>{{ post.date | date: "%e %B %Y" }}</time>
-{% endfor %}
+{%- endfor -%}
 <!-- End archive/index.md code -->
