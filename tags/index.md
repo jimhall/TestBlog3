@@ -15,7 +15,7 @@ title: Tags
 
 <p></p>
 
-<div class="container">
+<div class="tagcloud">
 {% for tags in site.tags %}
   <a name="{{ tags[0] }}"><h3>{{ tags[0] }}</h3></a>
   <ul>
