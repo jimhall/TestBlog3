@@ -23,7 +23,7 @@ title: Tags
 <p></p>
 
 {% for tags in site.tags %}
-  <h3>{{ tags[0] }}</h3>
+  <a name="{{ tags[0] }}"><h3>{{ tags[0] }}</h3></a>
   <ul>
     {% for post in tags[1] %}
       <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
