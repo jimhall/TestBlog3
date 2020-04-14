@@ -34,6 +34,8 @@ sitetags h3 {
 {% endfor %}
 </div>
 
+<p></p>
+
 {% for tags in site.tags %}
   <h3>{{ tags[0] }}</h3>
   <ul>
