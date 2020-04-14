@@ -10,7 +10,7 @@ title: Tags
 <div class="tagcloud">
 {%- for tags in site.tags -%}
   <a href="#{{ tags[0] }}"><h3 style="display:inline;">{{ tags[0] }}</h3></a>
-{% endfor %}
+{%- endfor -%}
 </div>
 
 <p></p>
