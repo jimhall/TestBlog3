@@ -15,8 +15,8 @@ title: Categories
 # Category listing
 
 <div class="catcloud">
-{% for tags in site.tags %}
-  <a href="#{{ tags[0] }}"><h3 style="display:inline;">{{ tags[0] }}</h3></a>
+{% for category in site.categories %}
+  <a href="#{{ category[0] }}"><h3 style="display:inline;">{{ category[0] }}</h3></a>
 {% endfor %}
 </div>
 
@@ -24,7 +24,7 @@ title: Categories
 
 <div class="container">
 {% for category in site.categories %}
-  <a name="{{ tags[0] }}"><h3>{{ category[0] }}</h3></a>
+  <a name="{{ category[0] }}"><h3>{{ category[0] }}</h3></a>
   <ul>
     {% for post in category[1] %}
       <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
