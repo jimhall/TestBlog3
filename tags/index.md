@@ -28,7 +28,7 @@ sitetags h3 {
 
 # Tag listing
 
-<div class="sitetags">
+<div class="container">
 {% for tags in site.tags %}
   <a href="#{{ tags[0] }}"><h3 style="display:inline;">{{ tags[0] }}</h3></a>
 {% endfor %}
