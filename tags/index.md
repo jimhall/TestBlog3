@@ -3,14 +3,7 @@ layout: default
 title: Tags
 ---
 
-<!-- Begin code @ tags/index.md -->
-<style>
-.tagcloud {
-    width: 90%;
-    max-width: 1000px;
-    margin:0 auto
-}
-</style>
+<!-- Style moved Begin code @ tags/index.md -->
 
 # Tag listing
 

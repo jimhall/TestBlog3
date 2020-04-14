@@ -1,11 +1,22 @@
 /*
    Jim Hall specific css adds for the Hacker theme
+   social-media* elements stolen from the minima theme @
+   https://github.com/jekyll/minima
 */
 
 .green {
     color:#b5e853
 }
-
+.catcloud {
+    width: 90%;
+    max-width: 1000px;
+    margin:0 auto
+}
+.tagcloud {
+    width: 90%;
+    max-width: 1000px;
+    margin:0 auto
+}
 footer {
     background: rgba(0, 0, 0, 0.1);
     width: 100%;
