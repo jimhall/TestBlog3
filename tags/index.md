@@ -4,16 +4,33 @@ title: Tags
 ---
 
 <!-- Begin code @ tags/index.md -->
+<style>
+sitetags {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-top: 1px dashed #b5e853;
+    padding: 10px 0;
+    margin:0 0 40px 0
+}
+
+sitetags h3 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color:#666
+}
+</style>
 
 # Tag listing
 
-{::nomarkdown}
-<div class="container">
+<div class="sitetags">
 {%- for tags in site.tags -%}
   <a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>
 {%- endfor -%}
 </div>
-{::/nomarkdown}
 
 {% for tags in site.tags %}
   <h3>{{ tags[0] }}</h3>
