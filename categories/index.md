@@ -4,16 +4,33 @@ title: Categories
 ---
 
 <!-- Begin code @ categories/index.md -->
+<style>
+.catcloud {
+    width: 90%;
+    max-width: 1000px;
+    margin:0 auto
+}
+</style>
 
 # Category listing
 
+<div class="catcloud">
+{% for tags in site.tags %}
+  <a href="#{{ tags[0] }}"><h3 style="display:inline;">{{ tags[0] }}</h3></a>
+{% endfor %}
+</div>
+
+<p></p>
+
+<div class="container">
 {% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
+  <a name="{{ tags[0] }}"><h3>{{ category[0] }}</h3></a>
   <ul>
     {% for post in category[1] %}
       <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
+<div>
 
 <!-- End code @ categories/index.md -->
