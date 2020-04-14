@@ -16,10 +16,10 @@ title: Tags
 <p></p>
 
 <div class="tagcloud">
-{% for tags in site.tags %}
+{%- for tags in site.tags -%}
   <a name="{{ tags[0] }}"><h3>{{ tags[0] }}</h3></a>
   <ul>
-    {% for post in tags[1] %}
+    {%- for post in tags[1] -%}
       <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
