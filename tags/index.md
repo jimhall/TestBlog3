@@ -22,6 +22,7 @@ title: Tags
 
 <p></p>
 
+<div class="container">
 {% for tags in site.tags %}
   <a name="{{ tags[0] }}"><h3>{{ tags[0] }}</h3></a>
   <ul>
@@ -30,5 +31,6 @@ title: Tags
     {% endfor %}
   </ul>
 {% endfor %}
+</div>
 
 <!-- End code @ tags/index.md -->
