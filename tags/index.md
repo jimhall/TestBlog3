@@ -10,7 +10,7 @@ title: Tags
 <div class="container">
 <!-- {::nomarkdown} -->
 {%- for tags in site.tags -%}
-  {::nomarkdown}<{::/nomarkdown}a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>
+  {::nomarkdown}<a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>{::/nomarkdown}
 {%- endfor -%}
 <!-- {::/nomarkdown} -->
 </div>
