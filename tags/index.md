@@ -26,11 +26,11 @@ sitetags h3 {
 
 # Tag listing
 
-{%- for tags in site.tags -%}
 <div class="sitetags">
-  <a href="#{{ tags[0] }}"<h3 style="display:inline;">{{ tags[0] }}</h3></a>
-</div>
+{%- for tags in site.tags -%}
+  <a href="#{{ tags[0] }}"><h3 style="display:inline;">{{ tags[0] }}</h3></a>
 {%- endfor -%}
+</div>
 
 {% for tags in site.tags %}
   <h3>{{ tags[0] }}</h3>
