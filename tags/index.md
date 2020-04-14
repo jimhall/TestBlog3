@@ -3,7 +3,7 @@ layout: default
 title: Tags
 ---
 
-<!-- Style moved Begin code @ tags/index.md -->
+<!-- Begin code @ tags/index.md -->
 
 # Tag listing
 

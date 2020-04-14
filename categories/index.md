@@ -4,13 +4,6 @@ title: Categories
 ---
 
 <!-- Begin code @ categories/index.md -->
-<style>
-.catcloud {
-    width: 90%;
-    max-width: 1000px;
-    margin:0 auto
-}
-</style>
 
 # Category listing
 
