@@ -4,6 +4,7 @@ title: Tags
 ---
 
 <!-- Begin code @ tags/index.md -->
+<!--
 <style>
 sitetags {
     background: rgba(0, 0, 0, 0.1);
@@ -23,6 +24,7 @@ sitetags h3 {
     color:#666
 }
 </style>
+-->
 
 # Tag listing
 
